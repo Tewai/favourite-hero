@@ -29,19 +29,20 @@ header{
 header h1{
 	color: black;
 	font-size: 60px;
-	line-height: 40px;
+	line-height: 50px;
 	margin-top: 50px;
 }
 
 h2{
 	font-size: 30px;
-	padding-top: 30px;
+	padding-top: 1px;
 }
 
 header img{
-	border-radius: 170px;
-	width: 300px;
-	box-shadow: 10px 10px black;
+	border-radius: 100px;
+	width: 350px;
+	box-shadow: 8px 8px black;
+	max-width: 90%;
 }
 
 main{
@@ -64,12 +65,23 @@ a:hover{
 
 footer{
 	text-align: center;
+	padding: 0px 15px 15px;
 }
 
 p.caption{
 	color: black;
 	margin-top: 0px;
 	font-style: italic;
+}
+
+.container {
+  position: relative;
+}
+
+.top-left{
+	position: absolute;
+	top: 8px;
+	left: 8px;
 }
 
 
